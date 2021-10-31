@@ -24,18 +24,37 @@ p {
 ul {
   list-style-type: none;
 }
-li {
+li#menu {
   float: right;
-  font-family: 'Zen Kaku Gothic New', sans-serif;
+  font-family: 'Spectral SC', serif;
+}
+li {
+  font-size: 1em;
+  font-weight: 400;
 }
 li a {
-  color: black;
+  font-family: 'Spectral', serif;
+}
+li#menu a {
   padding: 0px 30px;
+}
+a:link {
+  color: black;
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  text-decoration: underline;
 }
 .content-center {
   position: relative;
   padding: 40px 20px;
-  width: 70%;
+  width: 90%;
 }
 .content-text {
   text-align: left;
