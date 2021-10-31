@@ -1,0 +1,57 @@
+body {
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+  text-align: left;
+  padding: 10px 20px 0;
+  background: #f4f4f7;
+  color: #333;
+  margin: 0;
+  font-size: 24px;
+}
+h1 {
+  font-family: 'Zen Old Mincho', serif;
+  font-size: 65px;
+  line-height: 1.2em;
+  padding: 120px 16px 0;
+  font-weight: 400;
+  margin: 0;
+}
+h3 {
+  font-weight: 300;
+}
+p {
+  white-space: pre-wrap;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  float: right;
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+li a {
+  color: black;
+  padding: 0px 30px;
+}
+.content-center {
+  position: relative;
+  padding: 40px 20px;
+  width: 70%;
+}
+.content-text {
+  text-align: left;
+  word-wrap: break-word;
+}
+#portrait {
+  width: 90%;
+  max-width: 400px;
+  height: auto;
+  display: block;
+}
+#handwrite {
+  font-family: 'Alphabetism', 'Zen Old Mincho', serif;
+  font-size: 72px;
+}
+@font-face {
+  font-family: 'Alphabetism';
+  src: url('/fonts/AnAlphaBetIsm.ttf');
+}
