@@ -45,12 +45,24 @@ body {
   color: #E0F5E4;
 }
 
-.titlepanel{
+h1#titlepanel{
   padding: 0;
   margin: 0;
-  line-height: 100%;
+  line-height: 90%;
 }
 
 .comicpaper{
   background: #40C559;
+}
+
+@media (max-width: 760px) {
+  h1#titlepanel {
+    padding-left: 2px;
+    font-size: calc(2rem + 7vmin);
+    line-height: 100%;
+  }
+  h3.linedpanel {
+    padding-left: 2px;
+    font-size: calc(1rem + 4vmin);
+  }
 }
