@@ -2,24 +2,28 @@ body {
   font-family: 'Zen Kaku Gothic New', sans-serif;
   text-align: left;
   padding: 10px 20px 0;
-  background: #f4f4f7;
-  color: #333;
+  background: #1c1811;
+  color: #d9d9d9;
   margin: 0;
-  font-size: 1.5em;
+  font-size: 1.5rem;
 }
 h1 {
   font-family: 'Zen Old Mincho', serif;
-  font-size: 2.7em;
-  line-height: 1.2em;
-  padding: 120px 16px 0;
-  font-weight: 400;
+  font-size: 2.7rem;
+  line-height: 2rem;
+  font-weight: 300;
   margin: 0;
 }
 h3 {
-  font-weight: 300;
+  font-family: 'Gothic A1', sans-serif;
+  font-weight: 100;
+  font-size: 1.8rem;
 }
 p {
   white-space: pre-wrap;
+}
+section {
+  padding: 2vmin 0;
 }
 ul {
   list-style-type: none;
@@ -33,14 +37,19 @@ li#menu a {
   padding: 0px 30px;
 }
 li {
-  font-weight: 400;
-  font-size: 1em;
+  font-weight: 200;
+  font-size: 1.4rem;
+  margin-bottom: 0.4rem;
+  margin-left: -1rem;
 }
 li a {
-  font-family: 'Spectral', serif;
+  font-family: 'Gothic A1', sans-serif;
+  font-weight: 500;
+  margin-left: 2px;
+  margin-right: 2px;
 }
 a:link {
-  color: black;
+  color: #f2eeeb;
   text-decoration: none;
 }
 a:visited {
@@ -82,7 +91,8 @@ a:active {
 }
 #handwrite {
   font-family: 'Alphabetism', 'Zen Old Mincho', serif;
-  font-size: 2.7em;
+  font-size: 8vmin;
+  line-height: 7vmin;
 }
 @font-face {
   font-family: 'Alphabetism';
